@@ -6,10 +6,10 @@ package online.labuladong.algo.utils;
  * @description: 单链表的数据结构
  */
 public class ListNode {
-    int val;
-    ListNode next;
-    ListNode(int x) {val = x;}
-    ListNode() {}
+    public int val;
+    public ListNode next;
+    public ListNode(int x) {val = x;}
+    public ListNode() {}
 
     @Override
     public String toString() {
